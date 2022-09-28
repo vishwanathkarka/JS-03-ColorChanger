@@ -1,0 +1,57 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    height:100vh;
+display:flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap:40px;
+}
+#colorbg{
+width: 800px;
+background:red;
+height: 500px;
+border-radius: 20px;
+color:white;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+#colorbg h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+font-size: 1.5rem;
+}
+
+#clickme{
+    padding: 12px 30px;
+    background-color: black;
+    color:white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+/* everu */
+
+@media screen and (max-width: 850px) {
+    #colorbg{
+        width: 500px;
+        height: 400px;
+    }  
+    #colorbg h2{
+        font-size: 1rem;
+    } 
+}
+
+
+@media screen and (max-width: 530px) {
+    #colorbg{
+        width: 300px;
+        height: 200px;
+    }  
+    #colorbg h2{
+        font-size: 0.5rem;
+    } 
+}
